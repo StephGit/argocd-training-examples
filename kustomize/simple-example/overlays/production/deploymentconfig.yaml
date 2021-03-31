@@ -1,0 +1,6 @@
+apiVersion: apps/v1
+kind: DeploymentConfig
+metadata:
+  name: simple-example
+spec:
+  replicas: 4
