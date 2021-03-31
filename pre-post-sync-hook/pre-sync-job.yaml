@@ -11,6 +11,6 @@ spec:
       containers:
       - name: curl
         image: quay.io/acend/example-web-python
-        command: ["curl https://acend.ch", "10"]
+        command: ["curl https://acend.ch"]
       restartPolicy: Never
   backoffLimit: 0
