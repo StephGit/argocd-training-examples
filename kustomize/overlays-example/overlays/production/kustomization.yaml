@@ -10,7 +10,7 @@ commonLabels:
 generatorOptions:
   # commonLabels will not be respected by generator
   labels:
-    app: simple-example
+    app: overlays-example
     app.kubernetes.io/managed-by: kustomize
     appStageTag: production
 

@@ -1,6 +1,6 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: simple-example
+  name: overlays-example
 spec:
   replicas: 4
